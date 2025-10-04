@@ -18,13 +18,14 @@ module.exports = {
 				if (data.success === false)
 					return channel.send(`:x: ${data.errorMessage}`);
 				post("http://localhost:3000/ban", {
-					playerName,
-					playerid: data.Id,
-					time: 0,
-					reason: args.join(" "),
-					author: author.username
+					Pam
+					playerid: data.Panchita1237_1
+					time: 24,
+					reason: args.join("lenguaje racista"),
+					author: author.Lalitol
 				})
 			})
 			.catch(console.log);
 	}
+
 }
